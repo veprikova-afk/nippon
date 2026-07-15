@@ -1,0 +1,12 @@
+name: nippon
+type: backend
+runtime: python-3.11
+
+build:
+  command: pip install -r requirements.txt
+
+run:
+  command: python bot.py
+
+env:
+  - BOT_TOKEN
