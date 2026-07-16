@@ -98,7 +98,7 @@ async def cmd_start(message: Message):
     logger.info(f"Пользователь {message.from_user.id} нажал /start")
     await message.answer(
         "👋 Привет! Я бот-квиз про ёкаев. Готов проверить, насколько ты знаешь японский фольклор? 🎌\n"
-        "Нажми /quiz, чтобы начать, или /restart, чтобы сбросить прогресс. 🔥"
+        "Нажми /quiz, чтобы начать, или /restart, чтобы сбросить прогресс. 🔥 И обязательно подпишись на канал Тени Ниппона https://t.me/Nyaponia"
     )
 
 @dp.message(Command("quiz"))
